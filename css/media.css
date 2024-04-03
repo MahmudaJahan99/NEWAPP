@@ -1,0 +1,160 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* slider start */
+    .s_img img{
+        width: 80%;
+        padding:40px 0px;
+    }
+    .slider_text{
+        text-align: center;
+    }
+    .slider_text h1 {
+        font-size: 30px;
+    }
+    /* slider end */
+
+    /* hero start */
+      .hero-box{
+        padding-bottom: 15px;
+    }
+    /* hero end */
+
+    /* feature start */
+      .feature-img{
+        margin-bottom: 20px;
+      }
+    /* feature end */
+
+    /* testimonial start */
+    .testimonial-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .testimonial-image {
+    margin-bottom: 10px;
+    }
+    /* testimonial end */
+
+    /* get the app */
+    .content-box{
+        text-align: center;
+    
+    }
+    .btn-set a{
+        margin-bottom: 20px;
+    }
+
+    /*submit start */
+.subscribe {
+    padding: 80px 0px 0px;
+}
+  .c_input {
+    height: 40px;
+    margin-bottom: 16px;
+}
+.c_submit {
+    height: 40px;
+}
+/* end submit */
+/* footer */
+.footer-bg {
+    padding: 30px 0px !important;
+}
+.footer_link {
+     justify-content: center; 
+}
+.about-newapp{
+    text-align: center;
+}
+/* copy right */
+.copy-right{
+    text-align: center;
+}
+.second_f {
+    padding: 0px 0px 30px;
+}
+}
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*slider start*/
+    .s_img img{
+        width: 72%;
+    }
+    .slider_text{
+        text-align: center;
+    }
+    .slider_text h1 {
+        font-size: 40px;
+    }
+    /* slider end */
+
+    /* get the app */
+    .btn-set a{
+        margin-bottom: 10px;
+    }
+    /* subscribe */
+   .subscribe {
+    padding: 60px 0px 70px;
+    }   
+   .c_input {
+    height: 45px;
+    margin-bottom: 16px;
+    }
+    .c_submit {
+        height: 45px;
+    }
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/* header start */
+.meno ul li a {
+    font-size: 14px;
+}
+/* header end */
+
+ /*slider start*/
+.slider_text{
+    text-align: center;
+    font-size: 22px;
+}
+.slider_btn{
+    font-size: 24px;
+    padding: 10px 50px !important;
+}
+/* slider end */
+/* video area */
+.video-area {
+    margin-bottom:-40px;
+}
+/* best plan section start */
+.best-plan {
+    padding: 80px 0px;
+}
+.fw-bolder {
+    font-size: 32px !important;
+}
+
+/* best plan section end  */
+/* subscribe */
+.subscribe {
+    padding: 70px 0px 80px;
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+ }
+ /* Extra Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1400px) { 
+    
+  }
